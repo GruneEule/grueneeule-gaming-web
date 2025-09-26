@@ -1,0 +1,1 @@
+[CONTRIBUTING.md](https://github.com/GruneEule/grueneeule-web/blob/production/CONTRIBUTING.md)

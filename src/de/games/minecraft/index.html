@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GrüneEule</title>
+    <link rel="icon" href="https://grueneeule.de/assets/img/v2/MC-Symbol.png" type="image/png">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/secondary.css">
+    <link rel="stylesheet" href="/assets/css/minecraft.css">
+    <link rel="stylesheet" href="/assets/css/discord-tooltip.css">
+</head>
+<body>
+<div class="bg-animation"></div>
+<div id="header-container"></div>
+<main>
+    <li class="language-item">
+        <div class="language-switch-container">
+            <button class="language-switch-btn" id="languageSwitch">
+                <span class="language-flag">🇩🇪</span>
+                <span class="language-code">DE</span>
+            </button>
+            <div class="language-dropdown" id="languageDropdown">
+                <a href="#" data-lang="de" class="language-option">
+                    <span class="language-flag">🇩🇪</span>
+                    <span>Deutsch</span>
+                </a>
+                <a href="#" data-lang="en" class="language-option">
+                    <span class="language-flag">🇬🇧</span>
+                    <span>English</span>
+                </a>
+            </div>
+        </div>
+    </li>
+
+    <div class="theme-toggle-container">
+        <button id="theme-toggle" class="theme-toggle">☀️</button>
+    </div>
+
+    <section class="dev-hero">
+        <div class="container">
+            <h1>GE G / MINECRAFT</h1>
+            <p>Entdecke unsere Spannende Modpacks und mehr.</p>
+            <div class="dev-hero-buttons">
+                <a href="#modpacks" class="cta-button">Modpacks</a>
+                <a href="https://modrinth.com/organization/grueneeule-gaming" class="cta-button btn-secondary" target="_blank">Modrinth</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Minecraft Resources Section -->
+    <section id="modpacks" class="minecraft-resources">
+        <div class="container">
+            <h2 class="section-title">Minecraft Ressourcen</h2>
+            <p class="section-subtitle">Entdecke unsere Sammlung an Modpacks, Mods und Tools für dein Minecraft-Abenteuer</p>
+
+            <div class="resources-grid">
+                <!-- Modpacks Card -->
+                <div class="resource-card modpacks-card">
+                    <div class="resource-icon">📦</div>
+                    <h3>Modpacks</h3>
+                    <p>Vorgefertigte Sammlungen von Mods für verschiedene Spielerlebnisse</p>
+                    <div class="resource-buttons">
+                        <a href="https://modrinth.com/organization/grueneeule-gaming/modpacks" class="resource-btn" target="_blank">Modrinth</a>
+                        <a href="#" class="resource-btn btn-secondary">CurseForge (Coming Soon)</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quick Access Buttons -->
+            <div class="quick-access">
+                <h3>Schnellzugriff</h3>
+                <div class="quick-buttons">
+                    <a href="https://modrinth.com/organization/grueneeule-gaming" class="quick-btn">
+                        <span class="quick-icon">⬇️</span>
+                        Downloads
+                    </a>
+                    <a href="https://grueneeule.de/l/dc" class="quick-btn">
+                        <span class="quick-icon">💬</span>
+                        Support
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="footer-container"></div>
+    <div class="footer-bottom">
+        <p>NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT.</p>
+    </div>
+</main>
+
+<button class="scroll-top" aria-label="Nach oben scrollen">↑</button>
+
+<script src="/assets/js/ui.js"></script>
+<script src="/assets/js/load-header.js"></script>
+<script src="/assets/js/load-footer.js"></script>
+<script src="/assets/js/news.js"></script>
+<script src="/assets/js/load-projects.js"></script>
+<script src="/assets/js/status-api.js"></script>
+<script src="/assets/js/language.js"></script>
+<script src="https://api.instatus.com/widget?host=grueneeule.instatus.com&code=422c5cd9&locale=de">
+</script>
+</body>
+</html>

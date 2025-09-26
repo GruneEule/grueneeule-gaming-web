@@ -1,0 +1,1 @@
+[LICENSE.md](https://github.com/GruneEule/grueneeule-web/blob/production/LICENSE.md)

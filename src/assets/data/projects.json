@@ -1,0 +1,20 @@
+{
+  "projects": [
+    {
+      "id": "Minecraft",
+      "title": "Minecraft",
+      "features": [
+        "Modpacks",
+        "Texturepacks",
+        "And much more!"
+      ],
+      "primaryButton": {
+        "text": "Go",
+        "url": "/games/minecraft",
+        "class": "btn-discord"
+      },
+      "secondaryButton": null,
+      "cardClass": "mc-card"
+    }
+  ]
+}
