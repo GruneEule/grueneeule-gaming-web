@@ -1,1 +1,0 @@
-[nginx.conf](https://github.com/GruneEule/grueneeule-web/blob/production/nginx.conf)
